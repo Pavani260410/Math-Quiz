@@ -7,7 +7,7 @@ body {
 #scorediv {
     padding: 7px;
     margin: 5px;
-    height: 75px;
+    height: 90px;
     width: 150px;
     border: rebeccapurple 3px solid;
     box-sizing: border-box;
@@ -33,14 +33,17 @@ body {
 
 input {
     margin: 3px;
-    width:45px;
+    width: 45px;
     height: 30px;
     font-size: 17px;
 }
-#options{
-font-size: 20px;
-}#buttonenter{
-font-size: 17px;
-margin-top: 5px;
-border-radius: 3px;
+
+#options {
+    font-size: 20px;
+}
+
+#buttonenter {
+    font-size: 17px;
+    margin-top: 5px;
+    border-radius: 3px;
 }

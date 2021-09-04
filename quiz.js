@@ -73,7 +73,7 @@ function enter() {
         scoreone += 1
         console.log(scoreone);
     } else if (achance == "player2") {
-        scoretwo += 1
+        scoretwo -= 1
         console.log(scoretwo);
     }
     document.getElementById('n1').value = Math.floor(Math.random() * 20) + 1;
