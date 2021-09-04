@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+#divlogin {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    height: 400px;
+    width: 325px;
+}
+
+input::placeholder {
+    color: #8F7B8E;
+}
+
+label {
+    font-size: 18px;
+}

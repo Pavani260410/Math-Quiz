@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Math Quiz- Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel='icon' href="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/2x/external-question-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png">
+</head>
+
+<body onload="load()">
+    <div id="scorediv">
+        <div class="players">
+            <div id="player1name"></div>&nbsp;<span id="player1score">0</span>
+        </div><br>
+        <div class="players">
+            <div id="player2name"></div>&nbsp;<span id="player2score">0</span>
+        </div>
+    </div>
+
+    <center>
+        <div class="col-lg-4 col-sm-8 col-xs-11 game_div1">
+            <div class="turn">
+                <h3>Question turn: </h3>&nbsp;<h3 id="question"></h3>
+            </div><br>
+            <div class="turn">
+                <h3>Answer turn: </h3>&nbsp;<h3 id="answer"></h3>
+            </div><br>
+            <div class="turn">
+                <input type="number" value="2" id="n1">
+                <select id="options" onchange="change()">
+                    <option>×</option>
+                    <option>÷</option>
+                    <option>-</option>
+                    <option>+</option>
+                </select>
+                <input type="number" value="3" id="n2">
+            </div><br>
+            <button class="btn-success" id="buttonenter" onclick="enter()">Enter</button>
+        </div>
+    </center>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

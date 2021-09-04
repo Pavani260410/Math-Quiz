@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+
+}
+
+#scorediv {
+    padding: 7px;
+    margin: 5px;
+    height: 75px;
+    width: 150px;
+    border: rebeccapurple 3px solid;
+    box-sizing: border-box;
+}
+
+.players {
+    display: inline-flex;
+    font-size: 18px;
+}
+
+.game_div1 {
+    border-top: 15px purple solid;
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.turn {
+    display: inline-flex;
+}
+
+input {
+    margin: 3px;
+    width:45px;
+    height: 30px;
+    font-size: 17px;
+}
+#options{
+font-size: 20px;
+}#buttonenter{
+font-size: 17px;
+margin-top: 5px;
+border-radius: 3px;
+}
