@@ -11,8 +11,13 @@
 </head>
 
 <body>
+    
     <center>
         <br><br><br>
+        <div id="loading">
+        <progress value="0" max="100" id="p"></progress>
+        <h4 id="loadhead">Loading</h4>
+</div>
         <div id="divlogin">
             <br>
             <h1>Login</h1>
@@ -21,7 +26,7 @@
             <input type="text" id="player1" placeholder="Player one..."><br><br>
             <label>Player 2's name:</label><br>
             <input type="text" id="player2" placeholder="Player two..."><br><br>
-            <button type="button" class="btn btn-primary" onclick="enter()">Enter</button>
+            <button type="button" class="btn btn-primary" onclick="enter()">Enter</button><br>
         </div>
     </center>
     <script src="login.js"></script>

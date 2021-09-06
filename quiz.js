@@ -61,21 +61,27 @@ function enter() {
             console.log('correct!');
             window.alert('Hurray! Correct answer');
         }, 500);
-
+        if (achance == "player1") {
+            scoreone += 1
+            console.log(scoreone);
+        } else if (achance == "player2") {
+            scoretwo += 1
+            console.log(scoretwo);
+        }
     } else if (ask != answer) {
         setTimeout(function () {
             console.log('wrong!');
             window.alert('Oh no! Wrong answer');
         }, 500);
-
+        if (achance == "player1") {
+            scoreone -= 1
+            console.log(scoreone);
+        } else if (achance == "player2") {
+            scoretwo -= 1
+            console.log(scoretwo);
+        }
     }
-    if (achance == "player1") {
-        scoreone += 1
-        console.log(scoreone);
-    } else if (achance == "player2") {
-        scoretwo -= 1
-        console.log(scoretwo);
-    }
+    
     document.getElementById('n1').value = Math.floor(Math.random() * 20) + 1;
     document.getElementById('n2').value = Math.floor(Math.random() * 20) + 1;
     document.getElementById('options').value = signs[Math.floor(Math.random() * 4)]
